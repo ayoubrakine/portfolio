@@ -1,0 +1,36 @@
+.biographie-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 800px;
+
+       margin-left: 15%;
+
+
+      
+    
+       
+      
+       width: 90%;
+       margin-left: auto;
+       margin-right: auto;
+
+  }
+
+
+  
+  .biographie-content {
+    margin-top: 10px;
+  }
+  
+  .biographie-info {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .biographie-info.left-info {
+    margin-right: 10px; /* Ajustez la valeur de la marge selon votre préférence */
+  }
+  

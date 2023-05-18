@@ -1,0 +1,38 @@
+
+
+
+ul {
+   
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+
+    color: #fff;
+    
+}
+
+@media (max-width: 768px) {
+    /* Styles pour la version mobile */
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    ul {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ul.open {
+        display: flex;
+    }
+
+    li {
+        margin: 10px 0;
+    }
+}
